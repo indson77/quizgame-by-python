@@ -71,13 +71,13 @@ else :
     print("Oops Incorrect!")
 
 answer = input("largest state in india by area? :")
-if answer.lower() == "vatican" :
+if answer.lower() == "rajsthan" :
     print("Correct!")
     score += 1
 else :
     print("Oops Incorrect!")
 
-print("You got" + str(score) + "questions correct !")
-print("You got" + str((score/10) * 100) + "%.")
+print("You got "  + str(score) +  " questions correct !")
+print("You got "  + str((score/10) * 100) +  " %.")
 
 
